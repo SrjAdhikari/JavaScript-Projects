@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+/* Basic Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+body {
+	background-color: #f4f5f7;
+	padding: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+/* Container */
+.container {
+	width: 100%;
+	max-width: 1000px;
+}
+
+/* Heading */
+.container h1 {
+	text-align: center;
+	margin-bottom: 2rem;
+	color: #2d3748;
+	font-size: 2rem;
+	font-weight: 600;
+}
+
+.add-task {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+/* Task input */
+#task-input {
+	padding: 0.5rem;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	width: 200px;
+}
+
+/* Button to add task */
+#add-task-btn {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 8px;
+	cursor: pointer;
+	transition: background 0.3s ease;
+}
+
+#add-task-btn:hover {
+	background-color: #45a049;
+}
+
+/* Kanban Board */
+.board {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+/* List Columns */
+.list {
+	flex: 1;
+	min-width: 280px;
+	background-color: #ffffff;
+	border-radius: 12px;
+	padding: 1rem;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+/* List Titles */
+.list h2 {
+	font-size: 1.25rem;
+	color: #2c3e50;
+	border-bottom: 1px solid #e2e8f0;
+	padding-bottom: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* Cards */
+.card {
+	background-color: #edf2f7;
+	padding: 0.75rem 1rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+	cursor: grab;
+	transition: all 0.2s ease;
+	user-select: none;
+}
+
+.card:hover {
+	background-color: #e2e8f0;
+	transform: scale(1.02);
+}
+
+/* When dragging */
+.card:active {
+	cursor: grabbing;
+	opacity: 0.8;
+}
+
+/* Different column colors */
+#list1 {
+	border-top: 5px solid #e74c3c;
+}
+
+#list1 h2 {
+	color: #e74c3c;
+}
+
+#list2 {
+	border-top: 5px solid #3498db;
+}
+
+#list2 h2 {
+	color: #3498db;
+}
+
+#list3 {
+	border-top: 5px solid #2ecc71;
+}
+
+#list3 h2 {
+	color: #2ecc71;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.board {
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	.container h1 {
+		font-size: 1.5rem;
+	}
+}
