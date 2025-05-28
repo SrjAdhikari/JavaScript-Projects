@@ -29,14 +29,14 @@ Welcome to JavaScript Projects repository! This collection showcases six fun and
 
 ## <a id="projects-overview">🚀 Projects Overview </a>
 
-| No. | Project                                                | Description                                     |
-| --- | ------------------------------------------------------ | ----------------------------------------------- |
-| 1   | [Quiz Game](#1-quiz-game-)                             | Interactive timed quiz with score tracking      |
-| 2   | [Color Palette Generator](#2-color-palette-generator-) | Generate and copy beautiful color schemes       |
-| 3   | [Kanban Board](#3-kanban-board-)                       | Organize tasks visually using drag & drop       |
-| 4   | [Expense Tracker](#4-expense-tracker-)                 | Track your income and expenses                  |
-| 5   | [Password Generator](#5-password-generator-)           | Secure password creator with strength indicator |
-| 6   | [Todo App](#6-todo-app-)                               | Manage your daily tasks with ease               |
+| No. | Project                 | Description                                     |
+| --- | ----------------------- | ----------------------------------------------- |
+| 1   | Quiz Game               | Interactive timed quiz with score tracking      |
+| 2   | Color Palette Generator | Generate and copy beautiful color schemes       |
+| 3   | Kanban Board            | Organize tasks visually using drag & drop       |
+| 4   | Expense Tracker         | Track your income and expenses                  |
+| 5   | Password Generator      | Secure password creator with strength indicator |
+| 6   | Todo App                | Manage your daily tasks with ease               |
 
 ## <a id="project-details">📋 Project Details</a>
 
